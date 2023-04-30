@@ -32,7 +32,7 @@ nav {
     margin-right: 2rem;
 }
 
-#navbar-buttons button {
+button {
     padding: 0.8rem 1rem;
     border-radius: 0.5rem;
 
@@ -47,7 +47,7 @@ nav {
     transition: all 200ms ease-in-out;
 }
 
-#navbar-buttons button:hover {
+button:hover {
     opacity: 75%;
 }
 
@@ -252,7 +252,8 @@ p {
 .formulario footer {
     color: #98A2B3;
     font-size: 1rem;
-    font-weight: 500;
+    font-weight: 400;
+    margin-top: 2rem;
 }
 
 .formulario #form {
@@ -266,13 +267,23 @@ p {
 }
 
 #form span {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-weight: 500;
+    font-size: 1rem;
     color: var(--cor-texto);
 }
 
 #form input {
-    padding: 1rem;
+    padding: 0.5rem 1rem;
+    margin-right: 1rem;
+    border: 1px solid #D0D5DD;
+    border-radius: 0.5rem;
 }
 
 #form button {
-    padding: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    color: #FFF;
+    background-color: var(--cor-principal);
 }
